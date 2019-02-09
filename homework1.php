@@ -5,7 +5,32 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Таблица умножения</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href = "homework1.css" rel = "stylesheet">
+    <style>
+        body{
+            background: url(https://pp.userapi.com/c851416/v851416947/b1421/hpCYd8xgwPY.jpg);
+            background-attachment: fixed;
+        }
+
+        div{
+            color: beige;
+            padding: 30px 0 30px 0;
+        }
+
+        h1{
+            color: beige;
+        }
+
+        table{
+            border-collapse: collapse;
+            border: 3px solid beige;
+        }
+
+        td{
+            border: 2px solid beige;
+            padding: 5px;
+            color: beige;
+        }
+    </style>
 </head>
 <body>
     <div>
