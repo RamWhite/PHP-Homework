@@ -1,0 +1,18 @@
+body{
+    background: url(https://pp.userapi.com/c851416/v851416947/b1421/hpCYd8xgwPY.jpg);
+}
+
+h1{
+    color: beige;
+}
+
+table{
+    border-collapse: collapse;
+    border: 3px solid beige;
+}
+
+td{
+    border: 2px solid beige;
+    padding: 5px;
+    color: beige;
+}
