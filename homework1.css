@@ -1,5 +1,11 @@
 body{
     background: url(https://pp.userapi.com/c851416/v851416947/b1421/hpCYd8xgwPY.jpg);
+    background-attachment: fixed;
+}
+
+div{
+    color: beige;
+    padding: 30px 0 30px 0;
 }
 
 h1{
