@@ -122,6 +122,14 @@
             }
 
             print_r ($array);
+
+            foreach ($array as $key){
+                echo "<tr>";
+                foreach ($key as $data){
+                    echo "<td>{$data}</td>";
+                }
+                    echo "<tr>";
+            }
         ?>
     </div>
 
@@ -138,6 +146,39 @@
                 }
             ?>
         </table>
+    </div>
+
+    <div>
+        <h1>Задание №6 (готово)</h1>
+        <?php
+            $array = array();
+            $array1 = array();
+            $array2 = array();
+            $array_other = array();
+            for ($i = 0; $i < 10; $i++){
+                $array[] = mt_rand(1, 4);
+            }
+
+            print_r($array);
+
+            foreach ($array as $key){
+                if ($key == 1){
+                    array_push ($array1, $key);
+                }
+                else if ($key == 2){
+                    array_push ($array2, $key);
+                }
+                else if ($key >= 3){
+                    array_push ($array_other, $key);
+                }
+            }
+            echo "<br>";
+            print_r ($array1);
+            echo "<br>";
+            print_r ($array2);
+            echo "<br>";
+            print_r ($array_other);
+        ?>
     </div>
 
     <div>
